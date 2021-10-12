@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "axis=y": [   
+            { "model": "big_oak_log_1", "weight": 12 },
+            { "model": "big_oak_log_2", "weight": 3 },
+            { "model": "big_oak_log_3", "weight": 1 }
+            ],
+        "axis=z": [  
+            { "model": "big_oak_log_1", "weight": 12, "x": 90 },
+            { "model": "big_oak_log_2", "weight": 3, "x": 90 },
+            { "model": "big_oak_log_3", "weight": 1, "x": 90 }
+            ],
+        "axis=x": [    
+            { "model": "big_oak_log_1", "weight": 12, "x": 90, "y": 90 },
+            { "model": "big_oak_log_2", "weight": 3, "x": 90, "y":90 },
+            { "model": "big_oak_log_3", "weight": 1, "x": 90, "y":90 }
+            ],
+        "axis=none":   { "model": "dark_oak_bark" }
+    }
+}
